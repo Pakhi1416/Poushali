@@ -1,0 +1,134 @@
+<!--<!DOCTYPE html>
+<html>
+    <body>
+        <h2>javascript</h2>
+        <p>We want to add string with a number</p>
+            <p id="demo"></p>
+        <script>
+            //let a=10+5+5+"Poushali";
+            //document.getElementById("demo").innerHTML=a;
+            /*let a;
+            a=5;
+            a="Poushali";
+            document.getElementById("demo").innerHTML=a;*/
+            let name="It's a sunny day";
+            let lname="he is a very good 'student'";
+            let std='hi my name is "Pakhi"' ;
+            document.getElementById("demo").innerHTML=name+"<br>"+lname+std;
+        </script>
+
+    </body>
+</html>
+<!DOCTYPE html>
+<html>
+    <body>
+        <h2>Javascript</h2>
+        <p id="demo"></p>
+        <script>
+            let a=10;
+            let b="Poushali";
+            let c=30;
+            let d=c/a;
+            document.getElementById("demo").innerHTML=d+"<br>"+b;
+        </script>
+    </body>
+</html>-->
+<!--<!DOCTYPE html>
+<html>
+    <body>
+        <h3>Javascript</h3>
+        <p>We want to create array</p>
+        <p id="demo"></p>
+        <script>
+            //const name=["Poushali","Vandana","Anubha"];
+            //document.getElementById("demo").innerHTML=name[1];       
+            /*const student={    //object declared
+                name : "Poushali",
+                lname : "Das",
+                grade : "A"
+            };
+            const sec =  {
+                dept : "ECE"
+            };
+            document.getElementById("demo").innerHTML=student.name+" "+student.lname+" is a very good boy having "+student.grade+"grade"+". Her department is "+sec.dept;*/
+            function add(a,b)
+            {
+                return a+b;
+            }
+            document.getElementById("demo").innerHTML=add(1,10);
+            </script>
+</body>
+</html>-->
+<!--<!DOCTYPE html>
+<html>
+    <body>
+        <p id="demo"></p>
+        <script>
+            /*function reverse(n)
+            {
+                let rev = 0; 
+                 let ldigit;
+                  while(n != 0)
+                  {
+                       ldigit = n % 10;
+                        rev = rev * 10 + ldigit;
+                         n = Math.floor(n/10); 
+                        } 
+                return rev;
+
+            }
+            document.getElementById("demo").innerHTML=reverse(123);*/
+            
+            
+            //var a=window.prompt("What is your name");
+            //document.write("my name is"+a);
+
+
+
+            const student=["pakhi","jit","sourav","kartik"];
+            document.getElementById("demo").innerHTML=student.toString();
+        </script>
+
+    </body>
+</html>-->
+<!DOCTYPE html>
+<html>
+    <body>
+        <p id="demo"></p>
+        <p id="de"></p>
+        <p id="do"></p>
+        <p id="demo1"></p>
+        <p id="dom"></p>
+        <p id="demo2"></p>
+        <p id="demo3"></p>
+        <p id="dw"></p>
+        <p id="dq"></p>
+        <p id="da"></p>
+        <p id="dz"></p>
+        <p id="po"></p>
+        <script>
+            const student=["pakhi","jit","sourav","kartik"];
+            document.getElementById("demo").innerHTML=student.join(" @ ");//joining method
+            document.getElementById("do").innerHTML="New length is: "+student.push("Piya");//length
+            document.getElementById("de").innerHTML=student;//push
+            let a=student.pop("pakhi");//pop
+            document.getElementById("dom").innerHTML=student;
+            let b=student.shift();//shift prop(delete first element)
+            document.getElementById("demo2").innerHTML=student;
+            let c=student.unshift("Riya");//unshift (add new member)
+            document.getElementById("demo3").innerHTML=student;
+            student[0]="Aliya"
+            document.getElementById("dw").innerHTML=student;
+            delete student[1];//delete
+            document.getElementById("dq").innerHTML=student;
+            const boys=["Abhik","Sounak"];
+            const girls=["Kahini","Pakhi","Kaira"];
+            const p=boys.concat(girls);//merging arrays
+            document.getElementById("da").innerHTML=p;
+            p.splice(1,0,"Kairav","koyel");//splice method
+            document.getElementById("dz").innerHTML=p;
+            const tt=p.slice(2,5);//slice method
+            document.getElementById("po").innerHTML=p+"<br><br>"+tt;
+        </script>
+    </body>
+</html>

@@ -1,0 +1,86 @@
+<!--<!DOCTYPE html>
+<html>
+    <body>
+        <img id="my image" onclick="changeimage()" src="E:\My dowloads\off.jpg" width="250" height="250">
+        <script>
+            function changeimage()
+            {
+                var image=document.getElementById('my image');
+                if(image.src.match("E:\My dowloads\off.jpg"))
+                {
+                    image.src="E:\My dowloads\on.jpg";
+                }
+                else{
+                    image.src="E:\My dowloads\off.jpg";
+                }
+            }
+        </script>
+    </body>
+</html>-->
+<!--<!DOCTYPE html>
+<html>
+    <body>
+        
+        
+        //document.getElementById("demo").innerhtml=2+1;
+        //document.write(1+2);
+        <button type="button" onclick="document.write(3+2)">Click me</button>
+        <h1>hello</h1>
+        <script>
+            //window.alert(1+2);
+            console.log(1+2);
+        </script>
+    </body>
+</html>
+
+
+<!DOCTYPE html>
+<html>
+    <body>
+        <h1>Array Sort and reverse</h1>
+        <p id="demo"></p>
+        <p id="semo"></p>
+        <p id="semo1"></p>
+
+        <script>
+            //const student=["Kaira","Anu","Pakhi","Diya"];
+            const student=[23,11,89,20]
+            document.getElementById("demo").innerHTML=student;
+
+            student.sort();
+            document.getElementById("semo").innerHTML=student;
+            student.reverse();
+
+            document.getElementById("semo1").innerHTML=student;
+        </script>
+    </body>
+</html>
+<!DOCTYPE html>
+<html>
+    <body>
+        <button onclick="displayDate()">date</button>
+        <script>
+            function displayDate()
+            {
+                document.getElementById("demo").innerHTML=Date();
+            } 
+        </script>
+        <p id="demo"></p>
+    </body>
+</html>-->
+<!DOCTYPE html>
+<html>
+    <body>
+        <h1>Lets search for string and how it is declared</h1>
+            <p id="demo"></p>
+            <p id="demo2">
+            </p>
+            <p id="demo1"></p>
+        <script>
+            let str="hi my name is Poushali";
+            document.getElementById("demo").innerHTML=str.indexOf("Poushali");
+            document.getElementById("demo2").innerHTML=str.length();
+            document.getElementById("demo1").innerHTML=str.search("Poushali");
+        </script>
+    </body>
+</html>
