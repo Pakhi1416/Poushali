@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>table , th , td
+            {
+                border:4px solid rgb(17, 17, 17);
+                border-collapse: collapse;
+                border-bottom-left-radius: 2%; 
+                background-color: rgb(89, 192, 233)         
+            }
+            th, td {
+                padding-top: 10px;
+                padding-bottom: 10px;
+                padding-right :10px;
+                padding-left:  90px;
+            }
+            
+            a:hover{background-color: red;}
+    
+            body  {
+  background-image: url("E:\My dowloads\backimg.jpg");
+  background-color: #cccccc;
+}
+#image {
+    display: none;
+}
+#link{
+    display: none;
+}
+
+.name{
+    text-align: center;
+    
+            }
+            </style>
+        <title>Curriculam Vitae</title>
+    </head>
+    <body>
+        <div class="name">
+            <h1 style="color:rgb(71, 13, 13)">Curriculam Vitae</h1>
+        </div>
+        <div>
+            <img id="image" src="E:\My dowloads\Poushali Das.jpeg" 
+            alt="GFG image" width="100" height="100">
+        </div>
+    
+        <button type="button"
+            onclick="show1()" id="btnID">Show Image</button>
+    
+        <script>
+            function show1() {
+                document.getElementById('image')
+                        .style.display = "block";
+    
+                document.getElementById('btnID')
+                        .style.display = "none";
+            }
+        </script>
+        
+        
+        <h2>Poushali Das</h2>
+        <p>2/1/A APC Park, Baghajatin</p>
+        <p>Kolkata-86</p>
+        <p><b>Contact no.:</b> 700326543</p>
+        <p>Email:<a href="https://www.google.com/gmail/">poushalidas165@gmail.com</a></p>
+
+	<div>
+		<a id="link" href="https://www.linkedin.com/feed/?trk=IN-SEM_google-adwords_Jordan-brand-sign-up">linkedin account</a>
+	</div>
+
+	<button type="button" onclick="show()" id="btnID">Click for LinkedIn Profile</button>
+	<script>
+		function show() {
+			document.getElementById('link')
+					.style.display = "block";
+
+			document.getElementById('btnID')
+					.style.display = "none";
+		}
+	</script>
+
+        <h2><Strong>Career Objective</Strong></h2>
+        <p>Being a fast learner, I would like to learn and earn in order to meet the common objectives of the 
+            organization as a whole by utilizing a positive approach in everything that I do.</p>
+        
+        <h3>Academic Qualification</h3>
+        <table>
+            <tr>
+                <th>Examination</th>
+                <th>Year of passing</th>
+                <th>Percentage</th>
+            </tr>
+            <tr>
+                <th>Secondary</th>
+                <th>2016</th>
+                <th>80</th>
+            </tr>
+            <tr>
+                <th> Higher Secondary</th>
+                <th>2018</th>
+                <th>78</th>
+            </tr>
+            <tr>
+                <th>B.tech</th>
+                <th>2022</th>
+                <th>82</th>
+            </tr>
+
+        </table>
+        <h3>Projects & Internships</h3>
+        <table>
+            <tr>
+                <th>SL. No.</th>
+                <th>Company</th>
+                <th>Project title</th>
+                <th>Duration</th>
+            </tr>
+            <tr>
+                <th>1</th>
+                <th>Final year project of B.tech</th>
+                <th>Design and implementation of pulse Oximeter</th>
+                <th>Ongoing</th>
+            </tr>
+            <tr>
+                <th>2</th>
+                <th>Indian Institute of Remote Sensising Dehradun</th>
+                <th>Sattelite based Navigation: A journey from 
+                    GPS to Mobile Phone platform</th>
+                    <th>12Days</th>
+            </tr>
+        </table>
+        <h3>Technical Skills</h3>
+        <ul>
+            <li><i>Java</i></li><br>
+            <li><i>C</i></li><br>
+            <li><i>Python</i></li>
+        </ul>
+        <h3>Hobby</h3>
+        <ol>
+            <li><i>Playing tennis</i></li><br>
+            <li><i>Dancing</i></li><br>
+            <li><i>Singing</i></li>
+        </ol>
+        <h3>Acheivements(Academic & Social)</h3>
+        <ul>
+            <li><i>Completed a course on “Soft Skill” successfully from NPTEL</i></li>
+            <li><i>certificate in drawing in school time and pursued my drawing till 4th year</i></li>
+            <li><i>Public Relation Head in the official Film Club of Future Institute of Engineering and Management</i></li>
+            <li><i>Achieved 2nd prize in essay competition</i> </li>
+        </ul>
+    </body>
+</html>

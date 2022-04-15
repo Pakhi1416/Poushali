@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            p{
+                color: red;
+                text-align: center;
+            }
+            .name{
+                background-color: rgb(230, 184, 230);
+                font-size: large;
+                margin-top: 40px;
+                border: 30 px solid rgb(58, 4, 4);
+            }
+        </style>
+    </head>
+
+    <body>
+        <h1>This is my login form</h1>
+        <form>
+            <label for="fname">Enter your first name here</label><br>
+            <input type="text" id="fname" name="fname" value="Poushali"><br>
+            <label for="lname">Enter your last name here</label><br>
+            <input type="text" id="lname" name="lname" value="Das"><br>
+            <h2>Choose your fav Language</h2>
+            <input type="radio" id="C++" name="Favl" value="C++">
+            <label for="C++">C++</label><br>
+            <input type="radio" id="JAVA" name="Favl" value="JAVA">
+            <label for="JAVA">JAVA</label><br>
+            <input type="radio" id="C" name="Favl" value="C">
+            <label for="C">C</label><br>
+
+            <h2>Select the document type you are uploading</h2>
+            <input type="checkbox" id="Higher secondary marksheet" name="HSM" value="Higher secondary marksheet">
+            <label for="Higher secondary marksheet">Higher secondary marksheet</label><br>
+            <input type="checkbox" id="Higher secondary marksheet" name="HSM" value="Higher secondary marksheet">
+            <label for="Higher secondary marksheet">Higher secondary marksheet</label><br>
+            <input type="checkbox" id="Higher secondary marksheet" name="HSM" value="Higher secondary marksheet">
+            <label for="Higher secondary marksheet">Higher secondary marksheet</label><br>
+            
+            <input type="submit" value="submit">
+        
+        </form>
+
+        <div class="name">
+            <h3>Hi I am Poushali</h3>
+            <p> I am a certified developer</p>
+        </div>
+        <div class="name">
+            <h3>Hi I am Vandana</h3>
+            <p> I am associated with wipro</p>
+        </div>
+    </body>
+</html>
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+</style>
+</head>
+<body>
+
+<ul>
+  <li><a class="active" href="#home">Home</a></li>
+  <li><a href="#news">News</a></li>
+  <li><a href="#contact">Contact</a></li>
+  <li><a href="#about">About</a></li>
+</ul>
+
+</body>
+</html>
+* {
+    box-sizing: border-box;
+  }
+  
+  .column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+  }
+  
+  /* Clearfix (clear floats) */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
